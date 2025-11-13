@@ -25,7 +25,7 @@
   section#login{
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     position: absolute;
     top: 50%;
@@ -84,4 +84,13 @@ display: block;
   }
   .botao:hover{
     background-color: #68af8e;
+  }
+  .campo{
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+  }
+  div.campo > label{
+    display:none;
   }
