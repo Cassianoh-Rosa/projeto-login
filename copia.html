@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+    <link rel="stylesheet" href="copia/style.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
 </head>
 <body>
-    <section id="sla">
-        <div id="imagem">
-        </div>
-        <div id="form">
-            <h1>Login</h1>
-            <p>Seja bem vindo novamente. faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-        </div>
-    </section>
+    <main>
+        <section id="img">
+        </section>
+        <section id="formulario">
+            <h2>Login</h2>
+            <p>
+                Seja bem vindo novamente. faça login para acessar sua conta e poder fazer as configurações no seu ambiente
+            </p>
+            <form action="cadastro.php" method="post">
+                <div>
+                    <span class="material-symbols-outlined">person</span>
+
+                    <input type="email" name="email" id="iemail" placeholder=" Seu email">
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">lock</span>
+
+                    <input type="password" name="senha" id="isenha" placeholder=" Sua senha">
+                </div>
+                <button>Enviar</button>
+                <button>Limpar</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
